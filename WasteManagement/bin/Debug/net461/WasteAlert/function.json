@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "timerTrigger",
+      "schedule": "0 */1 * * * *",
+      "useMonitor": true,
+      "runOnStartup": false,
+      "direction": "in",
+      "name": "myTimer"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\WasteManagement.dll",
+  "entryPoint": "WasteManagement.WasteAlert.Run"
+}
